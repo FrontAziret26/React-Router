@@ -17,11 +17,11 @@ const Product = () => {
           <Block>
             <DetailsLink to={`${el.id}/details`}>
               <IphoneImg src={el.img} alt="" />
+        </DetailsLink>
               <div>
                 <h2>{el.title}</h2>
                 <h2>{el.price}</h2>
               </div>
-        </DetailsLink>
             </Block>
         ))}
       </WrapperContainer>
